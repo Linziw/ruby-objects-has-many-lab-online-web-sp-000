@@ -18,9 +18,6 @@ def add_song_by_name(song)
   @songs << song
 end
 
-def self.songs
-  @songs
-end
 
 def self.song_count
   @@songs.length
