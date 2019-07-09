@@ -13,7 +13,7 @@ class Post
   end 
   
   def author_name
-    self.artist.name
+    self.artist.@name
   end
   
   
