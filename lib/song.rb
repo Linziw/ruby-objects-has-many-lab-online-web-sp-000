@@ -17,7 +17,10 @@ class Song
   end
   
   def artist_name
+    nil if self.artist.name == nil
+  else
     self.artist.name
+  end
   end
   
   def song_count
